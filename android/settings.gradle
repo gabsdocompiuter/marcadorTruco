@@ -1,0 +1,3 @@
+rootProject.name = 'marcadorTruco'
+
+include ':app'
