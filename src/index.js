@@ -146,7 +146,7 @@ export default class MarcadorTruco extends Component {
     }
 }
 
-const imgSize = Dimensions.get('window').width * 0.25;
+const imgSize = (Dimensions.get('window').height - 250) / 5;
 
 const styles = StyleSheet.create({
     container: {
